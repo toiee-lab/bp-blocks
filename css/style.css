@@ -1,0 +1,51 @@
+.is-style-bp_intro {
+	color: #777;
+	font-size: 120%;
+}
+
+/* Sub Header */
+.editor-styles-wrapper .wp-block-bp-blocks-bp-subheader,
+.editor-styles-wrapper .wp-block-bp-blocks-bp-subheader {
+	color: #4693f5;
+	font-size: 1.25rem;
+	font-weight: 700;
+	margin-bottom: 0.6em;
+	margin-top: 0;
+	text-transform: uppercase;
+}
+
+div[data-type="bp-blocks/bp-subheader"] {
+	margin-bottom: 0 !important;
+}
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"],
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h2,
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h3,
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h4,
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h5,
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h6{
+	margin-top:0;
+}
+
+.wp-block-bp-blocks-bp-subheader+h1,
+.wp-block-bp-blocks-bp-subheader+h2,
+.wp-block-bp-blocks-bp-subheader+h3,
+.wp-block-bp-blocks-bp-subheader+h4,
+.wp-block-bp-blocks-bp-subheader+h5,
+.wp-block-bp-blocks-bp-subheader+h6 {
+	margin-top: 0;
+}
+
+/* bpコンテナ */
+.editor-styles-wrapper .container-wrapper {
+	background-color: #f4f5f6;
+	width: 100vw;
+	margin-left: calc( 50% - 50vw );
+	max-width: none;
+	padding-bottom: 6rem;
+	padding-top: 6rem;
+}
+
+.bp-rm-margin {
+	margin-top: 0 !important;
+	margin-bottom: 0 !important;
+}
