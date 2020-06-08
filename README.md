@@ -25,7 +25,7 @@ License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 ## Installation
 
-リリースからダウンロードしてください。Cloneで取り出しすのは、わかっている人だけにしてください。
+[リリースからダウンロード](https://github.com/toiee-lab/bp-blocks/releases/latest)してください。Cloneで取り出しすのは、わかっている人だけにしてください。
 
 1. ダウンロード
 2. 管理画面 > プラグイン > インストール > ファイルをアップロード
