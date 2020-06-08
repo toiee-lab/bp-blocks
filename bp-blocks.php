@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.2
+ * Version:         0.2.1
  *
  * @package         Bp_Blocks
  */
@@ -88,7 +88,7 @@ function bpext_register( $wp_customize ) {
 		'businesspress_force_light_background_color',
 		array(
 			'default' => true,
-		),
+		)
 	);
 	$wp_customize->add_control(
 		new WP_Customize_Control(
