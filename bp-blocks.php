@@ -1,13 +1,13 @@
 <?php
 /**
  * Plugin Name:     Bp Blocks
- * Plugin URI:      PLUGIN SITE HERE
- * Description:     PLUGIN DESCRIPTION HERE
- * Author:          YOUR NAME HERE
- * Author URI:      YOUR SITE HERE
+ * Plugin URI:      https://github.com/toiee-lab/bp-blocks
+ * Description:     BusinessPressを、もっと使いやすくするためのプラグイン
+ * Author:          toiee Lab
+ * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.1.0
+ * Version:         0.2
  *
  * @package         Bp_Blocks
  */
