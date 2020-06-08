@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.2.1
+ * Version:         0.2.2
  *
  * @package         Bp_Blocks
  */
@@ -31,7 +31,7 @@ function style_editor( $hook ) {
 		'style_js',
 		plugins_url( 'js/style.js', __FILE__ ),
 		array( 'wp-blocks', 'wp-element', 'wp-hooks' ), // Dependency to include the CSS after it.
-		filemtime( plugins_url( 'js/style.js', __FILE__ ). 'js/style.js' ),
+		filemtime( plugin_dir_path( __FILE__ ) . 'js/style.js' ),
 		true
 	);
 }
