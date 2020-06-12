@@ -3,7 +3,7 @@
 	font-size: 120%;
 }
 
-/* Sub Header */
+/* Sub Header for Block Editor */
 .editor-styles-wrapper .wp-block-bp-blocks-bp-subheader,
 .editor-styles-wrapper .wp-block-bp-blocks-bp-subheader {
 	color: #4693f5;
@@ -26,6 +26,14 @@ div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h6{
 	margin-top:0;
 }
 
+/* Sub Header for Frontend */
+.wp-block-bp-blocks-bp-subheader {
+	font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 0.6em;
+    margin-top: 0;
+    text-transform: uppercase;
+}
 .wp-block-bp-blocks-bp-subheader+h1,
 .wp-block-bp-blocks-bp-subheader+h2,
 .wp-block-bp-blocks-bp-subheader+h3,
@@ -33,6 +41,13 @@ div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h6{
 .wp-block-bp-blocks-bp-subheader+h5,
 .wp-block-bp-blocks-bp-subheader+h6 {
 	margin-top: 0;
+}
+
+.bp-blocks-subheader-align-center {
+	text-align: center;
+}
+.bp-blocks-subheader-align-right {
+	text-align: right;
 }
 
 /* bpコンテナ */

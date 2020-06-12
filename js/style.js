@@ -2,6 +2,8 @@
 	var el = element.createElement;
 	var InnerBlocks = editor.InnerBlocks;
 	var InspectorControls = editor.InspectorControls;
+	var BlockControls = editor.BlockControls;
+	var AlignmentToolbar = editor.AlignmentToolbar;
 	var ToggleControl = components.ToggleControl;
 	var PanelBody = components.PanelBody;
 
@@ -22,22 +24,47 @@
 				source: 'html',
 				selector: 'div',
 			},
+			alignment: {
+				type: 'string',
+				default: 'none',
+			}
 		},
 	 
 		edit: function( props ) {
-			return element.createElement( editor.RichText, {
-				tagName: 'div',  // The tag here is the element output and editable in the admin
-				className: props.className,
-				value: props.attributes.content, // Any existing content, either from the database or an attribute default
-				onChange: function( content ) {
-					props.setAttributes( { content: content } ); // Store updated content as a block attribute
-				},
-			} );
+			return [
+				el(
+					BlockControls,
+					{ key: 'controls' },
+					el(
+						AlignmentToolbar,
+						{
+							value: props.attributes.alignment,
+							onChange: function( newAlignment ) {
+								props.setAttributes( { alignment: newAlignment === undefined ? 'none' : newAlignment } );
+							},
+						}
+					)
+				),
+				el(
+					editor.RichText,
+					{
+						tagName: 'div',  // The tag here is the element output and editable in the admin
+						style: { textAlign: props.attributes.alignment },
+						className: props.className,
+						value: props.attributes.content, // Any existing content, either from the database or an attribute default
+						onChange: function( content ) {
+								props.setAttributes( { content: content } ); // Store updated content as a block attribute
+							},
+					}
+				)
+			];
 		},
 	 
 		save: function( props ) {
-			return element.createElement( editor.RichText.Content, {
-				tagName: 'div', value: props.attributes.content // Saves <h2>Content added in the editor...</h2> to the database for frontend display
+			return el( editor.RichText.Content, {
+				tagName: 'div',
+				className: 'bp-blocks-subheader-align-' + props.attributes.alignment,
+				value: props.attributes.content,
 			} );
 		},
 

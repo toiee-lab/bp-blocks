@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.2.2
+ * Version:         0.3
  *
  * @package         Bp_Blocks
  */
@@ -62,7 +62,6 @@ function bp_ext_css() {
 	<style>
 	.wp-block-bp-blocks-bp-subheader {
 		color: ' . esc_attr( $link_color ) . ';
-		font-weight: 700;
 	}
 	';
 
