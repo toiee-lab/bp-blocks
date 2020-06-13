@@ -72,9 +72,29 @@
 			from: [
 				{
 					type: 'block',
-					blocks: [ 'core/paragraph' ],
+					blocks: [ 'core/paragraph', 'core/heading' ],
 					transform: function ( attributes ) {
 						return blocks.createBlock( 'bp-blocks/bp-subheader', {
+							content: attributes.content,
+						} );
+					},
+				},
+			],
+			to: [
+				{
+					type: 'block',
+					blocks: [ 'core/paragraph' ],
+					transform: function( attributes ) {
+						return wp.blocks.createBlock( 'core/paragraph', {
+							content: attributes.content,
+						} );
+					},
+				},
+				{
+					type: 'block',
+					blocks: [ 'core/heading' ],
+					transform: function( attributes ) {
+						return wp.blocks.createBlock( 'core/heading', {
 							content: attributes.content,
 						} );
 					},
