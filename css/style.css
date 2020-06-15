@@ -66,6 +66,7 @@ div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h6{
 }
 
 /* figure caption */
+.wp-block-image figcaption,
 .wp-block-image .aligncenter>figcaption,
 .wp-block-image .alignleft>figcaption,
 .wp-block-image .alignright>figcaption,
