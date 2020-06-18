@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.5.2
+ * Version:         0.6
  *
  * @package         Bp_Blocks
  */
@@ -21,6 +21,8 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'bp-blocks'
 );
 
+$bppblocks_plugin_dir_path = plugin_dir_path( __FILE__ );
+require_once 'inc/tgmpa.php';
 
 require_once 'inc/remove-margin.php';
 
