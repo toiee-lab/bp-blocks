@@ -1,0 +1,421 @@
+# Copyright (C) 2020 WPClever.net
+# This file is distributed under the same license as the WPC Fly Cart for WooCommerce plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WPC Fly Cart for WooCommerce 2.1.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/woo-fly-cart\n"
+"Last-Translator: \n"
+"Language-Team: 日本語\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-07-07T04:05:17+00:00\n"
+"PO-Revision-Date: 2020-07-12 02:48+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: woofc\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Loco-Version: 2.4.0; wp-5.4.2"
+
+#. Plugin Name of the plugin
+msgid "WPC Fly Cart for WooCommerce"
+msgstr "WPC フライカート for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://wpclever.net/"
+msgstr "https://wpclever.net/"
+
+#. Description of the plugin
+msgid "WooCommerce interaction mini cart with many styles and effects."
+msgstr "たくさんのスタイルと影響を与えるWooCommerce双方向のミニカート"
+
+#. Author of the plugin
+msgid "WPClever.net"
+msgstr "WPClever.net"
+
+#. Author URI of the plugin
+msgid "https://wpclever.net"
+msgstr "https://wpclever.net"
+
+#: wpc-fly-cart.php:109
+msgid "Undo?"
+msgstr ""
+"やり直す？\n"
+
+#: wpc-fly-cart.php:110
+msgid "%s was removed."
+msgstr "%s は削除済みです"
+
+#: wpc-fly-cart.php:140 wpc-fly-cart.php:195
+msgid "Settings"
+msgstr "設定"
+
+#: wpc-fly-cart.php:141 wpc-fly-cart.php:200
+msgid "Premium Version"
+msgstr "プレミアム版"
+
+#: wpc-fly-cart.php:157
+msgid "Premium support"
+msgstr "プレミアムサポート"
+
+#: wpc-fly-cart.php:167 wpc-fly-cart.php:178
+msgid "WPC Fly Cart"
+msgstr "WPC フライカート"
+
+#: wpc-fly-cart.php:167
+msgid "Fly Cart"
+msgstr "Fly Cart"
+
+#: wpc-fly-cart.php:181
+msgid ""
+"Thank you for using our plugin! If you are satisfied, please reward it a "
+"full five-star %s rating."
+msgstr "私たちのプラグインを使ってくれてありがとう！もし満足してくださったなら、５つ星評価をいただけませんか？"
+
+#: wpc-fly-cart.php:184
+msgid "Reviews"
+msgstr "レビュー"
+
+#: wpc-fly-cart.php:186
+msgid "Changelog"
+msgstr "変更履歴"
+
+#: wpc-fly-cart.php:188
+msgid "Discussion"
+msgstr "ディスカッション"
+
+#: wpc-fly-cart.php:210
+msgid "General"
+msgstr "一般"
+
+#: wpc-fly-cart.php:211
+msgid "General settings for the fly cart."
+msgstr "Fly cart 一般設定"
+
+#: wpc-fly-cart.php:214
+msgid "Open on AJAX add to cart"
+msgstr "カートに追加する非同期処理を開く"
+
+#: wpc-fly-cart.php:219 wpc-fly-cart.php:237 wpc-fly-cart.php:555
+#: wpc-fly-cart.php:573 wpc-fly-cart.php:591 wpc-fly-cart.php:613
+#: wpc-fly-cart.php:669
+msgid "Yes"
+msgstr "はい"
+
+#: wpc-fly-cart.php:223 wpc-fly-cart.php:241 wpc-fly-cart.php:402
+#: wpc-fly-cart.php:559 wpc-fly-cart.php:577 wpc-fly-cart.php:595
+#: wpc-fly-cart.php:617 wpc-fly-cart.php:673
+msgid "No"
+msgstr "いいえ"
+
+#: wpc-fly-cart.php:227
+msgid ""
+"The fly cart will be opened immediately after whenever click to AJAX Add to "
+"cart buttons? See %s \"Add to cart behaviour\" setting %s"
+msgstr ""
+"非同期処理のカートボタンをクリックしたらいつでも、その後にすぐに fly cart を表示しますか？ %s 「かごに入れる」の処理 %s をご覧ください"
+
+#: wpc-fly-cart.php:232
+msgid "Open on normal add to cart"
+msgstr "通常の「カートへ追加」で開く"
+
+#: wpc-fly-cart.php:245
+msgid ""
+"The fly cart will be opened immediately after whenever click to normal Add "
+"to cart buttons (AJAX is not enable) or Add to cart button in single product "
+"page?"
+msgstr ""
+"通常の(非同期処理をオフにしている)カートに追加ボタンか個別商品ページのカートに追加ボタンをクリックしたら、いつでも即座に fly cart "
+"を開きますか？"
+
+#: wpc-fly-cart.php:250
+msgid "Manual show up button"
+msgstr "手動の表示ボタン"
+
+#: wpc-fly-cart.php:254
+msgid "button class or id"
+msgstr "ボタンの class あるいは id"
+
+#: wpc-fly-cart.php:256
+msgid ""
+"The class or id of the button, when click to this button the fly cart will "
+"be show up. Example %s or %s"
+msgstr "ボタンの class あるいは id です"
+
+#: wpc-fly-cart.php:261
+msgid "Overlay layer"
+msgstr "オーバーレイヤー(網掛け)"
+
+#: wpc-fly-cart.php:266 wpc-fly-cart.php:374 wpc-fly-cart.php:415
+#: wpc-fly-cart.php:433 wpc-fly-cart.php:448 wpc-fly-cart.php:467
+#: wpc-fly-cart.php:505 wpc-fly-cart.php:527
+msgid "Show"
+msgstr "表示する"
+
+#: wpc-fly-cart.php:270 wpc-fly-cart.php:378 wpc-fly-cart.php:419
+#: wpc-fly-cart.php:437 wpc-fly-cart.php:452 wpc-fly-cart.php:471
+#: wpc-fly-cart.php:494 wpc-fly-cart.php:509 wpc-fly-cart.php:531
+msgid "Hide"
+msgstr "非表示"
+
+#: wpc-fly-cart.php:274
+msgid ""
+"If you hide the overlay layer, the buyer still can work on your site when "
+"the fly cart is opening."
+msgstr "もしオーバーレイヤーを非表示にすると、購入者は、fly cartが開いている状態でも、サイト上を操作できます"
+
+#: wpc-fly-cart.php:279 wpc-fly-cart.php:623
+msgid "Position"
+msgstr "位置"
+
+#: wpc-fly-cart.php:284
+msgid "Right"
+msgstr "右"
+
+#: wpc-fly-cart.php:288
+msgid "Left"
+msgstr "左"
+
+#: wpc-fly-cart.php:292
+msgid "Top"
+msgstr "上"
+
+#: wpc-fly-cart.php:296
+msgid "Bottom"
+msgstr "下"
+
+#: wpc-fly-cart.php:300
+msgid "Center"
+msgstr "中央"
+
+#: wpc-fly-cart.php:306
+msgid "Style"
+msgstr "スタイル"
+
+#: wpc-fly-cart.php:311
+msgid "Color background"
+msgstr "塗り潰し背景"
+
+#: wpc-fly-cart.php:315
+msgid "White background"
+msgstr "白背景"
+
+#: wpc-fly-cart.php:319
+msgid "Color background, no thumbnail"
+msgstr "塗り潰し背景、サムネイルなし"
+
+#: wpc-fly-cart.php:323
+msgid "White background, no thumbnail"
+msgstr "白背景、サムネイルなし"
+
+#: wpc-fly-cart.php:327 wpc-fly-cart.php:344
+msgid "Background image"
+msgstr "背景画像"
+
+#: wpc-fly-cart.php:333
+msgid "Color"
+msgstr "塗り潰し"
+
+#: wpc-fly-cart.php:339
+msgid "Background & text color, default %s"
+msgstr "背景 & テキスト色、初期値 %s"
+
+#: wpc-fly-cart.php:360
+msgid "Cart heading"
+msgstr "カート見出し"
+
+#: wpc-fly-cart.php:364 wpc-fly-cart.php:774
+msgid "Shopping Cart"
+msgstr "ショッピングカート"
+
+#: wpc-fly-cart.php:365
+msgid "Leave blank to use the default text and can be translated."
+msgstr "空白のままにすると初期値と翻訳を使います"
+
+#: wpc-fly-cart.php:369
+msgid "Close button"
+msgstr "閉じるボタン"
+
+#: wpc-fly-cart.php:381
+msgid "Show the close button on the fly cart?"
+msgstr "fly cart に閉じるボタンを表示しますか？"
+
+#: wpc-fly-cart.php:385
+msgid "Link to individual product"
+msgstr "個々の商品にリンク"
+
+#: wpc-fly-cart.php:390
+msgid "Yes, open in the same tab"
+msgstr "はい、同じタブに開きます"
+
+#: wpc-fly-cart.php:394
+msgid "Yes, open in the new tab"
+msgstr "はい、新しいタブに開きます"
+
+#: wpc-fly-cart.php:398
+msgid "Yes, open quick view popup"
+msgstr "はい、Quick View Popup を開きます"
+
+#: wpc-fly-cart.php:410
+msgid "Product data"
+msgstr "商品データ"
+
+#: wpc-fly-cart.php:423
+msgid "Show the product data under product title on the list?"
+msgstr "商品のタイトルのリストの下に、商品データを表示しますか？"
+
+#: wpc-fly-cart.php:428 wpc-fly-cart.php:857
+msgid "Subtotal"
+msgstr "小計"
+
+#: wpc-fly-cart.php:443
+msgid "Coupon"
+msgstr "クーポン"
+
+#: wpc-fly-cart.php:462 wpc-fly-cart.php:863
+msgid "Total"
+msgstr "合計"
+
+#: wpc-fly-cart.php:477
+msgid "Action buttons"
+msgstr "実行ボタン"
+
+#: wpc-fly-cart.php:482
+msgid "Cart & Checkout"
+msgstr "カートと購入手続き"
+
+#: wpc-fly-cart.php:486
+msgid "Cart only"
+msgstr "カートのみ"
+
+#: wpc-fly-cart.php:490
+msgid "Checkout only"
+msgstr "購入手続きのみ"
+
+#: wpc-fly-cart.php:500
+msgid "Cross sells"
+msgstr "クロスセル"
+
+#: wpc-fly-cart.php:512
+msgid "Show the cross sells products?"
+msgstr "クロスセル商品を表示しますか？"
+
+#: wpc-fly-cart.php:522
+msgid "Continue shopping"
+msgstr "買い物を続ける"
+
+#: wpc-fly-cart.php:535
+msgid "Show the continue shopping button at the end of fly cart?"
+msgstr "fly cart の末尾に、買い物を続けるボタンを表示しますか？"
+
+#: wpc-fly-cart.php:540
+msgid "Continue shopping URL"
+msgstr "買い物を続ける時のURL"
+
+#: wpc-fly-cart.php:545
+msgid ""
+"Custom URL for \"continue shopping\" button. By default, only close the fly "
+"cart when clicking on this button."
+msgstr "「買い物を続ける」ボタンのための独自URL。初期設定では、ボタンをクリックするとfly cartを閉じるだけです。"
+
+#: wpc-fly-cart.php:550
+msgid "Undo remove"
+msgstr "削除をやり直す"
+
+#: wpc-fly-cart.php:563
+msgid "Enable undo after removing a product?"
+msgstr "商品を削除したあとにやり直しを有効にしますか？"
+
+#: wpc-fly-cart.php:568
+msgid "Reload the cart"
+msgstr "カートを再読み込み"
+
+#: wpc-fly-cart.php:581
+msgid ""
+"The cart will be reloaded when opening the page? If you use the cache for "
+"your site, please turn on this option."
+msgstr "ページを開いた時、カートが再読み込みされますか？　もし、キャッシュの仕組みを使っているなら、オフにしてください。"
+
+#: wpc-fly-cart.php:586
+msgid "Hide on Cart & Checkout"
+msgstr "カートページ、購入手続きページで非表示"
+
+#: wpc-fly-cart.php:599
+msgid "Hide the fly cart on the Cart and Checkout page."
+msgstr "fly cart をカートや購入手続きページで非表示"
+
+#: wpc-fly-cart.php:604
+msgid "Bubble"
+msgstr "バブル"
+
+#: wpc-fly-cart.php:605
+msgid "Settings for the bubble."
+msgstr "バブルのための設定をします"
+
+#: wpc-fly-cart.php:608
+msgid "Enable"
+msgstr "有効"
+
+#: wpc-fly-cart.php:628
+msgid "Top Left"
+msgstr "左上"
+
+#: wpc-fly-cart.php:632
+msgid "Top Right"
+msgstr "右上"
+
+#: wpc-fly-cart.php:636
+msgid "Bottom Left"
+msgstr "左下"
+
+#: wpc-fly-cart.php:640
+msgid "Bottom Right"
+msgstr "右下"
+
+#: wpc-fly-cart.php:646
+msgid "Icon"
+msgstr "アイコン"
+
+#: wpc-fly-cart.php:664
+msgid "Hide if empty"
+msgstr "カートが空の場合、非表示"
+
+#: wpc-fly-cart.php:677
+msgid "Hide the bubble if the cart is empty?"
+msgstr "カートがからの場合、バブルを非表示にしますか？"
+
+#: wpc-fly-cart.php:682 wpc-fly-cart.php:686
+msgid "Menu"
+msgstr "メニュー"
+
+#: wpc-fly-cart.php:683
+msgid "Settings for cart menu item."
+msgstr "メニューに表示されるカートアイコン（アイテム）の設定をします"
+
+#: wpc-fly-cart.php:701
+msgid "Choose the menu(s) you want to add the cart at the end."
+msgstr "カートリンクを末尾に追加したいメニューを選択してください"
+
+#: wpc-fly-cart.php:708
+msgid "Update Options"
+msgstr "オプションを更新する"
+
+#: wpc-fly-cart.php:840
+msgid "Remove"
+msgstr "削除"
+
+#: wpc-fly-cart.php:847
+msgid "There are no products in the cart!"
+msgstr "カートに商品がありません！"
+
+#: wpc-fly-cart.php:869 wpc-fly-cart.php:873
+msgid "Cart"
+msgstr "カート"
+
+#: wpc-fly-cart.php:869 wpc-fly-cart.php:878
+msgid "Checkout"
+msgstr "購入手続き"
+
+#: wpc-fly-cart.php:883
+msgid "Continue Shopping"
+msgstr "買い物を続ける"

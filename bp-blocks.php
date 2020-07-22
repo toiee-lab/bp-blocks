@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.7
+ * Version:         0.8
  *
  * @package         Bp_Blocks
  */
@@ -25,7 +25,6 @@ $bppblocks_plugin_dir_path = plugin_dir_path( __FILE__ );
 require_once 'inc/tgmpa.php';
 
 require_once 'inc/remove-margin.php';
-
 
 // スタイルセレクト機能 script
 function style_editor( $hook ) {
@@ -58,6 +57,7 @@ add_action( 'enqueue_block_assets', 'style_frontend_editor' );
 function bp_ext_css() {
 
 	$link_color             = get_theme_mod( 'businesspress_link_color', '#4693f5' );
+	$link_color_hover       = get_theme_mod( 'businesspress_link_hover_color', '#639af6' );
 	$light_background_color = get_theme_mod( 'businesspress_light_background_color', '#f4f5f6' );
 
 	$css = '
@@ -85,6 +85,27 @@ function bp_ext_css() {
 		margin-right: inherit;
 		padding: inherit;
 		text-transform: inherit;
+	}
+
+	.woocommerce ul.products li.product .price,
+	.woocommerce div.product p.price,
+	.woocommerce div.product span.price {
+		color: ' . esc_attr( $link_color ) . ';
+	}
+
+	.woocommerce span.onsale,
+	.woocommerce #respond input#submit.alt,
+	.woocommerce a.button.alt,
+	.woocommerce button.button.alt,
+	.woocommerce input.button.alt {
+		background-color: ' . esc_attr( $link_color ) . ';
+	}
+
+	.woocommerce #respond input#submit.alt:hover,
+	.woocommerce a.button.alt:hover,
+	.woocommerce button.button.alt:hover,
+	.woocommerce input.button.alt:hover {
+		background-color: ' . esc_attr( $link_color_hover ) . ';
 	}
 	';
 	}

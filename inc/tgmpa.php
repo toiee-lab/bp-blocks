@@ -127,6 +127,41 @@ function bpblocks_register_required_plugins() {
 			)
 		);
 	}
+	if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
+		array_push(
+			$plugins,
+			array(
+				'name'     => 'Japnaized WooCommerce',
+				'slug'     => 'woocommerce-for-japan',
+				'required' => true,
+			),
+			array(
+				'name'     => 'WooCustomizer',
+				'slug'     => 'woocustomizer',
+				'required' => false,
+			),
+			array(
+				'name'     => 'WPC Fly Cart for WooCommerce',
+				'slug'     => 'woo-fly-cart',
+				'required' => false,
+			),
+			array(
+				'name'     => 'Widget Options',
+				'slug'     => 'widget-options',
+				'required' => false,
+			),
+			array(
+				'name'     => 'Menu Icons',
+				'slug'     => 'menu-icons',
+				'required' => false,
+			),
+			array(
+				'name'     => 'Loco Translate',
+				'slug'     => 'loco-translate',
+				'required' => false,
+			)
+		);
+	}
 
 	/*
 	 * Array of configuration settings. Amend each line as needed.
