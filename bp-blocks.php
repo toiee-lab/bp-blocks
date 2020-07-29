@@ -21,10 +21,14 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'bp-blocks'
 );
 
+global $bppblocks_plugin_dir_path;
 $bppblocks_plugin_dir_path = plugin_dir_path( __FILE__ );
+
 require_once 'inc/tgmpa.php';
 
 require_once 'inc/remove-margin.php';
+
+require_once 'inc/settings.php';
 
 // スタイルセレクト機能 script
 function style_editor( $hook ) {
