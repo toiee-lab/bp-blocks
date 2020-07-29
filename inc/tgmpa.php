@@ -127,7 +127,7 @@ function bpblocks_register_required_plugins() {
 			)
 		);
 	}
-	if ( is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
+	if ( function_exists( 'is_plugin_active' ) && is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
 		array_push(
 			$plugins,
 			array(
