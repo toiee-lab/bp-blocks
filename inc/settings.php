@@ -25,51 +25,34 @@ class BpBlocks {
 
 	public function bp_blocks_create_admin_page() {
 		$this->bp_blocks_options = get_option( 'bp_blocks_option_name' ); 
+		$trans_lang      = array(
+			'woofc'         => array(
+				'name'      => 'Fly Cart プラグイン',
+				'lang_slug' => 'woofc',
+				'plg_slug'  => 'woo-fly-cart',
+				'lang_dir'  => 'languages',
+			),
+			'woocustomizer' => array(
+				'name'      => 'WooCustomizer プラグイン',
+				'lang_slug' => 'woocustomizer',
+				'plg_slug'  => 'woocustomizer',
+				'lang_dir'  => 'lang',
+			),
+		);
 
 		if ( isset( $_POST['cmd'] ) && 'bp-blocks-settings' === $_POST['cmd'] ) {
 			check_admin_referer( 'bp-blocks' );
 			global $bpb_plugin_dir_path;
 
-			$msg_success  = array();
-			$msg_error    = array();
-			$flycart_po   = $bpb_plugin_dir_path . 'languages/woofc-ja.po';
-			$flycart_mo   = $bpb_plugin_dir_path . 'languages/woofc-ja.mo';
-			$plugins_path = trailingslashit( dirname( $bpb_plugin_dir_path ) );
+			$msg_success     = array();
+			$msg_error       = array();
+			$plugins_path    = trailingslashit( dirname( $bpb_plugin_dir_path ) );
+			$wpcore_lang_dir = WP_CONTENT_DIR . '/languages/plugins/';
+			$loco_lang_dir   = WP_CONTENT_DIR . '/languages/loco/plugins/';
+			$bpb_lang_dir    = $bpb_plugin_dir_path . 'languages/';
 
 			foreach ( $_POST[ 'bpb' ] as $key => $v ) {
 				switch ( $key ) {
-					case 'wp_fly_cart_trans_plugin':
-						$woo_fly_cart_dir = $plugins_path . 'woo-fly-cart/languages/';
-						if ( file_exists( $woo_fly_cart_dir ) ) {
-							copy( $flycart_po, $woo_fly_cart_dir . basename( $flycart_po ) );
-							copy( $flycart_mo, $woo_fly_cart_dir . basename( $flycart_mo ) );
-							$msg_success[] = 'Woo Fly Cartプラグイン内にファイルをコピーしました。';
-						} else {
-							$msg_error[] = $woo_fly_cart_dir . ' が存在しないため、コピーしませんでした。';
-						}
-						break;
-
-					case 'wp_fly_cart_trans_system':
-						$lang_dir = WP_CONTENT_DIR . '/languages/plugins/';
-						if ( file_exists( $lang_dir ) ) {
-							copy( $flycart_po, $lang_dir . basename( $flycart_po ) );
-							copy( $flycart_mo, $lang_dir . basename( $flycart_mo ) );
-							$msg_success[] = 'WordPressシステム内にファイルをコピーしました。';
-						} else {
-							$msg_error[] = $lang_dir . ' が存在しないため、コピーしませんでした。';
-						}
-						break;
-
-					case 'wp_fly_cart_trans_loco':
-						$lang_dir = WP_CONTENT_DIR . '/languages/loco/plugins/';
-						if ( file_exists( $lang_dir ) ) {
-							copy( $flycart_po, $lang_dir . basename( $flycart_po ) );
-							copy( $flycart_mo, $lang_dir . basename( $flycart_mo ) );
-							$msg_success[] = 'Locoプラグイン用ディレクトリ内にファイルをコピーしました。';
-						} else {
-							$msg_error[] = $lang_dir . ' が存在しないため、コピーしませんでした。';
-						}
-						break;
 					case 'use_woocommerce':
 						if ( (bool) $v ) {
 							update_option( 'bp_block_use_woocommerce', true, false );
@@ -77,6 +60,53 @@ class BpBlocks {
 							delete_option( 'bp_block_use_woocommerce' );
 						}
 						break;
+					default:
+						foreach ( $trans_lang as $pslug => $v ) {
+							$lang_slug = $v['lang_slug'];
+							$do_copy   = false;
+							$po_from   = $bpb_lang_dir . $lang_slug . '-ja.po';
+							$mo_from   = $bpb_lang_dir . $lang_slug . '-ja.mo';
+
+							switch ( $key ) {
+								case $pslug . '_trans_plugin':
+									$plugin_lang_path = WP_CONTENT_DIR . '/plugins/' . $v['plg_slug'] . '/' . $v['lang_dir'] . '/';
+
+									$do_copy = true;
+									$po_to   = $plugin_lang_path . $lang_slug . '-ja.po';
+									$mo_to   = $plugin_lang_path . $lang_slug . '-ja.mo';
+
+									break;
+								case $pslug . '_trans_system':
+									$do_copy = true;
+									$po_to   = $wpcore_lang_dir . $lang_slug . '-ja.po';
+									$mo_to   = $wpcore_lang_dir . $lang_slug . '-ja.mo';
+
+									break;
+								case $pslug . '_trans_loco':
+									$do_copy = true;
+									$po_to   = $loco_lang_dir . $lang_slug . '-ja.po';
+									$mo_to   = $loco_lang_dir . $lang_slug . '-ja.mo';
+
+									break;
+							}
+
+							if ( $do_copy ) {
+								// ! ここを作成する（ファイルの存在をチェック、to dirチェック、コピー成功チェック）
+								$flag = copy( $po_from, $po_to );
+								if ( $flag ) {
+									$msg_success[] = basename( $po_from ) . 'を' . dirname( $po_to ) . 'にコピーしました。';
+								} else {
+									$msg_error[] = basename( $po_from ) . 'を' . dirname( $po_to ) . 'にコピーできませんでした。';
+								}
+
+								$flag = copy( $mo_from, $mo_to );
+								if ( $flag ) {
+									$msg_success[] = basename( $mo_from ) . 'を' . dirname( $mo_to ) . 'にコピーしました。';
+								} else {
+									$msg_error[] = basename( $mo_from ) . 'を' . dirname( $mo_to ) . 'にコピーできませんでした。';
+								}
+							}
+						}
 				}
 			}
 
@@ -125,18 +155,20 @@ class BpBlocks {
 						<span class="description">WooCommerceを使う設定を行うと、推奨プラグインを簡単にインストールできます。</span>
 					</td>
 				</tr>
+				<?php foreach ( $trans_lang as $pslug => $v ) : ?>
 				<tr>
 					<th scope="row">
-						<label for="my-text-field">WP Fly Cartの翻訳ファイルを更新</label>
+						<label for="my-text-field"><?php echo $v['name']; ?>の翻訳ファイルを更新</label>
 					</th>
 					<td>
-						<label><input type="checkbox" name="bpb[wp_fly_cart_trans_plugin]" value="true" /> プラグインの言語ファイルを更新する</label><br>
-						<label><input type="checkbox" name="bpb[wp_fly_cart_trans_system]" value="true" /> システムの言語ファイルを更新する</label><br>
-						<label><input type="checkbox" name="bpb[wp_fly_cart_trans_loco]" value="true" /> Loco翻訳プラグインの言語ファイルを更新する</label><br>
+						<label><input type="checkbox" name="bpb[<?php echo $pslug; ?>_trans_plugin]" value="true" /> プラグインの言語ファイルを更新する</label><br>
+						<label><input type="checkbox" name="bpb[<?php echo $pslug; ?>_trans_system]" value="true" /> システムの言語ファイルを更新する</label><br>
+						<label><input type="checkbox" name="bpb[<?php echo $pslug; ?>_trans_loco]" value="true" /> Loco翻訳プラグインの言語ファイルを更新する</label><br>
 						<br>
 						<span class="description">翻訳ファイルを上書き保存します。必要な設定を行った上で、実行してください（特にLoco Translateプラグイン）</span>
 					</td>
 				</tr>
+				<?php endforeach; ?>
 				</tbody>
 			</table>
 			<?php wp_nonce_field( 'bp-blocks' ); ?>
