@@ -127,9 +127,15 @@ function bpblocks_register_required_plugins() {
 			)
 		);
 	}
-	if ( function_exists( 'is_plugin_active' ) && is_plugin_active( 'woocommerce/woocommerce.php' ) ) {
+
+	if ( get_option( 'bp_block_use_woocommerce', false ) ) {
 		array_push(
 			$plugins,
+			array(
+				'name'     => 'WooCommerce',
+				'slug'     => 'woocommerce',
+				'required' => true,
+			),
 			array(
 				'name'     => 'Japnaized WooCommerce',
 				'slug'     => 'woocommerce-for-japan',
@@ -153,6 +159,11 @@ function bpblocks_register_required_plugins() {
 			array(
 				'name'     => 'Menu Icons',
 				'slug'     => 'menu-icons',
+				'required' => false,
+			),
+			array(
+				'name'     => 'If menu',
+				'slug'     => 'if-menu',
 				'required' => false,
 			),
 			array(

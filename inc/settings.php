@@ -70,6 +70,13 @@ class BpBlocks {
 							$msg_error[] = $lang_dir . ' が存在しないため、コピーしませんでした。';
 						}
 						break;
+					case 'use_woocommerce':
+						if ( (bool) $v ) {
+							update_option( 'bp_block_use_woocommerce', true, false );
+						} else {
+							delete_option( 'bp_block_use_woocommerce' );
+						}
+						break;
 				}
 			}
 
@@ -98,6 +105,26 @@ class BpBlocks {
 			<form method="post" action="<?php admin_url( 'options-general.php?page=bp-blocks' ); ?>">
 			<table class="form-table">
 				<tbody>
+				<tr>
+					<th scope="row">
+						<label for="my-text-field">WooCommerceを利用する</label>
+					</th>
+					<td>
+						<?php
+						if ( get_option( 'bp_block_use_woocommerce', false ) ) {
+							$true_checked = 'checked';
+							$false_checked = '';
+						} else {
+							$true_checked = '';
+							$false_checked = 'checked';
+						}
+						?>
+						<label><input type="radio" name="bpb[use_woocommerce]" value="1" <?php echo $true_checked; ?> /> はい、使います</label><br>
+						<label><input type="radio" name="bpb[use_woocommerce]" value="0" <?php echo $false_checked; ?> /> いいえ、使いません</label><br>
+						<br>
+						<span class="description">WooCommerceを使う設定を行うと、推奨プラグインを簡単にインストールできます。</span>
+					</td>
+				</tr>
 				<tr>
 					<th scope="row">
 						<label for="my-text-field">WP Fly Cartの翻訳ファイルを更新</label>
