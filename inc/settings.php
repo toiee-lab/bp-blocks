@@ -28,13 +28,13 @@ class BpBlocks {
 
 		if ( isset( $_POST['cmd'] ) && 'bp-blocks-settings' === $_POST['cmd'] ) {
 			check_admin_referer( 'bp-blocks' );
-			global $bppblocks_plugin_dir_path;
+			global $bpb_plugin_dir_path;
 
 			$msg_success  = array();
 			$msg_error    = array();
-			$flycart_po   = $bppblocks_plugin_dir_path . 'languages/woofc-ja.po';
-			$flycart_mo   = $bppblocks_plugin_dir_path . 'languages/woofc-ja.mo';
-			$plugins_path = trailingslashit( dirname( $bppblocks_plugin_dir_path ) );
+			$flycart_po   = $bpb_plugin_dir_path . 'languages/woofc-ja.po';
+			$flycart_mo   = $bpb_plugin_dir_path . 'languages/woofc-ja.mo';
+			$plugins_path = trailingslashit( dirname( $bpb_plugin_dir_path ) );
 
 			foreach ( $_POST[ 'bpb' ] as $key => $v ) {
 				switch ( $key ) {

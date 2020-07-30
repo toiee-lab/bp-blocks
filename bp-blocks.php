@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         0.8.1
+ * Version:         1.0
  *
  * @package         Bp_Blocks
  */
@@ -21,8 +21,11 @@ $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
 	'bp-blocks'
 );
 
-global $bppblocks_plugin_dir_path;
-$bppblocks_plugin_dir_path = plugin_dir_path( __FILE__ );
+global $bpb_plugin_file_path;
+$bpb_plugin_file_path = __FILE__;
+
+global $bpb_plugin_dir_path;
+$bpb_plugin_dir_path = plugin_dir_path( __FILE__ );
 
 require_once 'inc/tgmpa.php';
 
