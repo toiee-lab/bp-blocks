@@ -34,3 +34,5 @@ require_once 'inc/remove-margin.php';
 require_once 'inc/settings.php';
 
 require_once 'inc/styling.php';
+
+require_once 'inc/wc-login-popup.php';
