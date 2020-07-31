@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WooCustomizer\n"
 "POT-Creation-Date: 2020-07-27 10:58+0200\n"
-"PO-Revision-Date: 2020-07-30 07:14+0000\n"
+"PO-Revision-Date: 2020-07-31 02:55+0000\n"
 "Last-Translator: \n"
 "Language-Team: 日本語\n"
 "MIME-Version: 1.0\n"
@@ -51,13 +51,13 @@ msgstr "カタログモード"
 msgid ""
 "These are settings to turn your online store into Catalogue Mode so users "
 "can only browse products and not purchase them for the time period set."
-msgstr ""
+msgstr "これらの設定は、サイトをカタログモードに変換します。すると、ユーザーは商品を閲覧するだけが可能で、設定された時間まで購入できなくなります"
 
 #: includes/class-wcz-settings.php:217 includes/class-wcz-settings.php:232 
 #: includes/class-wcz-settings.php:247 includes/class-wcz-settings.php:262 
 #: includes/class-wcz-settings.php:277
 msgid "Upgrade from only <b>$29</b> to unlock these extra Pro features"
-msgstr ""
+msgstr "たったの<b>$29</b>から、追加のプロ機能がご利用いただけるアップグレードをどうぞ"
 
 #: includes/class-wcz-settings.php:220
 msgid ""
@@ -66,6 +66,7 @@ msgid ""
 "products, selected products, or only to logged out users, prompting users to "
 "create an account and log in to purchase your products."
 msgstr ""
+"簡単に、ショップから購入機能を削除し、オンランショップを美しいオンラインカタログに変換します。この設定は全ての商品、全ての選択された商品、あるいはログアウトユーザーだけに適用し、ユーザーにアクアウント作成を促し、ログインしてユーザーにだけ商品購入を可能にします"
 
 #: includes/class-wcz-settings.php:226 includes/class-wcz-settings.php:231 
 #: includes/class-wcz-settings.php:352
@@ -74,7 +75,7 @@ msgstr "メニューカート"
 
 #: includes/class-wcz-settings.php:227 includes/class-wcz-settings.php:353
 msgid "Easily add a WooCommerce Menu Cart to your site navigation."
-msgstr ""
+msgstr "簡単にWooCommerce メニューカートをサイトのナビに追加します"
 
 #: includes/class-wcz-settings.php:235
 msgid ""
@@ -82,11 +83,12 @@ msgid ""
 "WooCommerce cart in. Add a drop down mini cart basket so your users can add "
 "or remove products, view their cart or go straight to checkout."
 msgstr ""
+"単にメニューカートをオンにして、どのメニューにWooCommerceカートを表示したいかを選ぶだけ。ドロップダウン・ミニカート・バスケットが追加でき、ユーザーは商品を追加したり、削除したり、カートを閲覧したり、迷わず注文できます"
 
 #: includes/class-wcz-settings.php:241 includes/class-wcz-settings.php:246 
 #: includes/class-wcz-settings.php:374
 msgid "Product Quick View"
-msgstr "商品クリックビュー"
+msgstr "商品クイックビュー"
 
 #: includes/class-wcz-settings.php:242 includes/class-wcz-settings.php:375
 msgid "Add a Quick View Popup to your WooCommerce Products."
@@ -98,6 +100,7 @@ msgid ""
 "or browse the images from within a popup on your shop page, or click through "
 "to the product page after they've seen it all."
 msgstr ""
+"ユーザーに、ショップページのポップアップで商品をプレビュー、簡単にカートに追加、画像を閲覧する方法を提供し、それらを見た後に、商品ページへ移動させられます"
 
 #: includes/class-wcz-settings.php:256 includes/class-wcz-settings.php:388
 msgid "Ajax Search"
@@ -107,7 +110,7 @@ msgstr "非同期検索"
 msgid ""
 "Add Ajax Search functionlaity to make finding your products quicker and "
 "easier."
-msgstr ""
+msgstr "簡単かつ素早く商品を探し出せるような非同期検索機能を追加できます"
 
 #: includes/class-wcz-settings.php:261
 msgid "Ajax Product Search"
@@ -119,6 +122,7 @@ msgid ""
 "to your search bar and configure a bunch of settings to display a prediction "
 "of products when your users start typing to search through your products."
 msgstr ""
+"ユーザーに素早く、あなたの商品を見つけて欲しいですか？　シンプルな非同期商品検索を検索バーに追加し、ユーザーが商品を検索するために文字入力を始めたら、予想される商品を表示設定を行ってください"
 
 #: includes/class-wcz-settings.php:271 includes/class-wcz-settings.php:423
 msgid "Thank You Page(s)"
@@ -131,6 +135,8 @@ msgid ""
 "other products that they might like<br /><br />They have just purchased "
 "something from you so they already trust you and want your products."
 msgstr ""
+"購入後のありがとうページは、ニュースレターの登録を促したり、商品の使い方を説明したり、あるいは顧客がきっと喜ぶ、別の商品を宣伝するためのとてもパワフルな場所です。<br"
+" /><br />顧客はあなたから何かを買ったばかりで、それは、既にあなたのことを信頼し、あなたの商品が欲しいという意味です。"
 
 #: includes/class-wcz-settings.php:276
 msgid "Custom Thank You Pages"
@@ -148,17 +154,17 @@ msgstr ""
 
 #: includes/class-wcz-settings.php:286 includes/class-wcz-settings.php:464
 msgid "Handheld Footer Bar"
-msgstr ""
+msgstr "モバイル用フッターバー"
 
 #: includes/class-wcz-settings.php:287
 msgid ""
 "Make navigating your products and proceeding to the cart or checkout pages "
 "on your store even quicker and easier for all users on handheld devices."
-msgstr ""
+msgstr "モバイルデバイスを使うユーザーに、商品を案内、カートに入る、注文ページに進むなどを、今までにないほど素早く、簡単に、ナビゲートできます"
 
 #: includes/class-wcz-settings.php:291 includes/class-wcz-settings.php:469
 msgid "Enable Handheld Footer Bar"
-msgstr ""
+msgstr "モバイル用フッターバーを有効にする"
 
 #: includes/class-wcz-settings.php:295
 msgid ""
@@ -168,14 +174,15 @@ msgid ""
 "handheld devices. Plus you are able to further customize the footer "
 "navigation bar to suit your website design."
 msgstr ""
+"あなたの顧客は、モバイルデバイスやタブレットを使った時に、あなたのストアのどこからでも、簡単に商品を探し、注文に進み、アカウントページを閲覧するなどが、簡単にできます。Wooカスタマイザープロは、モバイルデバイスのためのすっきりとしたフッターナビゲーションを提供します。さらに、あなたのWebサイトのデザインに合わせて、もっとフッターナビバーをカスタマイズできる機能も提供します。"
 
 #: includes/class-wcz-settings.php:307
 msgid ""
 "<b>Note:</b> All settings for WooCustomizer are built into the WordPress "
 "Customizer.<br />Please go to <b>Appearance -> Customize -> WooCustomizer</b>"
 msgstr ""
-"<b>注意:</b> WooCustomizer の全設定は、WordPressのカスタマイザーに組み込まれています。<br />以下からどうぞ <b>"
-"外観-> カスタマイズ -> WooCustomizer</b>"
+"<b>お知らせ:</b> WooCustomizer の全設定は、WordPressのカスタマイザーに組み込まれています。<br />以下からどうぞ "
+"<b>外観-> カスタマイズ -> WooCustomizer</b>"
 
 #: includes/class-wcz-settings.php:332
 msgid "Enable Catalogue Mode"
@@ -183,7 +190,7 @@ msgstr "カタログモードを有効化"
 
 #: includes/class-wcz-settings.php:357
 msgid "Enable Menu Cart"
-msgstr "メニューかーとを有効化"
+msgstr "メニューカートを有効化"
 
 #: includes/class-wcz-settings.php:364
 msgid "Select which Menu to add a Menu Cart to"
@@ -232,7 +239,7 @@ msgstr "Wooカスタマイザードキュメントを見る(英語)"
 
 #: includes/class-wcz-settings.php:465
 msgid "Turn on a neat Footer Bar Navigation for handheld (mobile) devices."
-msgstr ""
+msgstr "携帯端末用のフッターバーナビを有効化"
 
 #: includes/class-wcz-settings.php:567 includes/class-wcz-settings.php:568
 msgid "StoreCustomizer"
@@ -266,7 +273,7 @@ msgstr "お問い合わせ"
 msgid ""
 "Click here to open the WordPress Customizer and navigate to the -> "
 "WooCustomizer panel."
-msgstr ""
+msgstr "ここをクリックして、WordPressのカスタマイザーを開き、Wooカスタマイザーパネルを開いてください"
 
 #: includes/class-wcz-settings.php:661
 msgid "Customize Your Settings"
@@ -331,7 +338,7 @@ msgstr ""
 msgid ""
 "After editing the Shop & Product pages, you may want to edit your user "
 "account, cart or checkout pages too."
-msgstr ""
+msgstr "ショップと商品ページを編集後、もしかしたらユーザーアカウント、カート、注文ページも編集したくなるかもしれません。"
 
 #: includes/class-wcz.php:366
 msgid "Edit your WooCustomizer Pro Settings!"
@@ -347,7 +354,7 @@ msgstr ""
 #: includes/class-wcz.php:372 includes/class-wcz.php:398 
 #: includes/class-wcz.php:423
 msgid "Turn on the Pro Settings"
-msgstr ""
+msgstr "プロ設定を有効化"
 
 #: includes/class-wcz.php:373 includes/class-wcz.php:399 
 #: includes/class-wcz.php:424
@@ -389,7 +396,7 @@ msgstr ""
 
 #: includes/class-wcz.php:455
 msgid "Thank you for trying out WooCustomizer !"
-msgstr ""
+msgstr "Wooカスタマイザーをお試しくださりありがとうございます！"
 
 #: includes/class-wcz.php:459
 #, php-format
@@ -770,7 +777,7 @@ msgstr "顧客に在庫数を表示する"
 msgid ""
 "This uses the stock set at product level.<br /><br />Use \"[no]\" in the "
 "text to display the stock amount."
-msgstr ""
+msgstr "商品単位で在庫を設定した時に使います。<br /><br />在庫数を [no] (という文字)で差し替えて表示できます"
 
 #: includes/customizer/customizer-options.php:438
 msgid "Low Stock Amount Text"
@@ -782,7 +789,7 @@ msgstr "商品在庫が3あるいは、それ以下の場合"
 
 #: includes/customizer/customizer-options.php:442
 msgid "Only [no] left in stock!"
-msgstr ""
+msgstr "在庫は残り[no] だけ！"
 
 #: includes/customizer/customizer-options.php:446
 msgid "Stock Amount Text"
@@ -790,7 +797,7 @@ msgstr "在庫数テキスト"
 
 #: includes/customizer/customizer-options.php:449
 msgid "[no] left in stock!"
-msgstr ""
+msgstr "[no] の在庫あり!"
 
 #: includes/customizer/customizer-options.php:454
 msgid "Edit Shop Button Texts"
@@ -827,13 +834,13 @@ msgstr "\"New\"バッジを最近追加された商品に追加する"
 
 #: includes/customizer/customizer-options.php:491
 msgid "Days to determine if product is \"New\""
-msgstr ""
+msgstr "商品を\"New\"とする日数を決めます"
 
 #: includes/customizer/customizer-options.php:494
 msgid ""
 "The \"New\" badge will only display on products where the \"Published On\" "
 "date is less that the number of days specified here."
-msgstr ""
+msgstr "公開日が、ここで設定した日数より少ない商品にだけ New バッジを表示します"
 
 #: includes/customizer/customizer-options.php:499
 msgid "New Product Badge Text"
@@ -1012,22 +1019,24 @@ msgid ""
 "product.<br /><br />To add a suffix to only certain products, simply add "
 "nothing here (and save), then edit the suffix setting on each product."
 msgstr ""
+"商品毎に接頭語を編集する場合は、商品の編集ページで「商品データ -> WooCustomizer」で行ってください<br /><br />"
+"特定の商品にだけ接頭語を追加するには、単純にここでは何もせず(保存は行う)、商品毎に接頭語の設定を編集してください"
 
 #: includes/customizer/customizer-options.php:861
 msgid "Product Price Prefix Text"
-msgstr ""
+msgstr "商品価格の接頭語テキスト"
 
 #: includes/customizer/customizer-options.php:864
 msgid "From:"
-msgstr ""
+msgstr "この価格から"
 
 #: includes/customizer/customizer-options.php:868
 msgid "Add the prefix to Product Shop page"
-msgstr ""
+msgstr "接頭語を商品ショップページに追加"
 
 #: includes/customizer/customizer-options.php:871
 msgid "Add the prefix to the product list and category pages too."
-msgstr ""
+msgstr "接頭語を商品リストとカテゴリページにも追加する"
 
 #: includes/customizer/customizer-options.php:877
 msgid "Add a default Price Suffix"
@@ -1039,22 +1048,24 @@ msgid ""
 "product.<br /><br />To add a suffix to only certain products, simply add "
 "nothing here (and save), then edit the suffix setting on each product."
 msgstr ""
+"商品毎に接尾語を編集する場合は、商品の編集ページで「商品データ -> WooCustomizer」で行ってください<br /><br />"
+"特定の商品にだけ接尾語を追加するには、単純にここでは何もせず(保存は行う)、商品毎に接尾語の設定を編集してください"
 
 #: includes/customizer/customizer-options.php:885
 msgid "Product Price Suffix Text"
-msgstr ""
+msgstr "商品価格の接尾語テキスト"
 
 #: includes/customizer/customizer-options.php:888
 msgid "Incl. VAT"
-msgstr ""
+msgstr "税込み"
 
 #: includes/customizer/customizer-options.php:892
 msgid "Add the suffix to Product Shop page"
-msgstr ""
+msgstr "接尾語を商品ショップページに追加"
 
 #: includes/customizer/customizer-options.php:895
 msgid "Add the suffix to the product list and category pages too."
-msgstr ""
+msgstr "接尾語を商品リストとカテゴリページにも追加する"
 
 #: includes/customizer/customizer-options.php:901
 msgid "Edit Product Button Text"
@@ -1062,7 +1073,7 @@ msgstr "商品ボタンテキストを編集"
 
 #: includes/customizer/customizer-options.php:908
 msgid "Product Button Text"
-msgstr ""
+msgstr "商品ボタンテキスト"
 
 #: includes/customizer/customizer-options.php:915
 msgid "Remove SKU"
@@ -1084,15 +1095,15 @@ msgstr "販売数を表示"
 
 #: includes/customizer/customizer-options.php:944
 msgid "Amount Sold Text"
-msgstr ""
+msgstr "売り切れ量テキスト"
 
 #: includes/customizer/customizer-options.php:947
 msgid "Use \"[no]\" in the text to display the amount sold."
-msgstr ""
+msgstr "テキスト内で、販売数を [no] を使って表せます"
 
 #: includes/customizer/customizer-options.php:948
 msgid "Items Sold: [no]"
-msgstr ""
+msgstr "販売数: [no]"
 
 #: includes/customizer/customizer-options.php:952
 msgid "Add button to 'Continue Shopping'"
@@ -1108,13 +1119,13 @@ msgstr "買い物を続ける"
 
 #: includes/customizer/customizer-options.php:966
 msgid "Continue Shopping URL"
-msgstr ""
+msgstr "ショッピングを続けるURL"
 
 #: includes/customizer/customizer-options.php:969
 msgid ""
 "If not set, this will default to the shop page.<br />Enter the full url, "
 "including 'https://'"
-msgstr ""
+msgstr "もし設定しなければ、ショップページになります。<br /> https:// から始まる「完全なURL」を入力してください"
 
 #: includes/customizer/customizer-options.php:975
 msgid "Edit Variable Product dropdown label"
@@ -1122,11 +1133,11 @@ msgstr "バリエーションのある商品のドロップダウンのラベル
 
 #: includes/customizer/customizer-options.php:982
 msgid "Default Label"
-msgstr ""
+msgstr "デフォルトラベル"
 
 #: includes/customizer/customizer-options.php:985
 msgid "Choose an option"
-msgstr ""
+msgstr "オプションを選択"
 
 #: includes/customizer/customizer-options.php:993
 msgid "Add Plus & Minus buttons to 'Add To Cart'"
@@ -1143,7 +1154,7 @@ msgstr "最小値を許可"
 
 #: includes/customizer/customizer-options.php:1024
 msgid "Increment / Decrement By"
-msgstr ""
+msgstr "増やす / 減らす 以下の数によって"
 
 #: includes/customizer/customizer-options.php:1033
 msgid "Edit Stock Status Texts"
@@ -1170,7 +1181,7 @@ msgid ""
 "Managing stock at a product level, you can display the stock amount here by "
 "using \"[no]\" in the text to display the amount, or simply add your own "
 "text."
-msgstr ""
+msgstr "商品レベルで在庫を管理している時、[no] を在庫表示に置き換え、在庫数を表示できます。あるいは、シンプルに表示するテキストを追加できます。"
 
 #: includes/customizer/customizer-options.php:1052
 msgid "Stock Available"
@@ -1178,11 +1189,11 @@ msgstr "在庫あり"
 
 #: includes/customizer/customizer-options.php:1056
 msgid "On Back Order Text"
-msgstr ""
+msgstr "お取り寄せテキスト"
 
 #: includes/customizer/customizer-options.php:1059
 msgid "On Back Order"
-msgstr ""
+msgstr "お取り寄せ"
 
 #: includes/customizer/customizer-options.php:1063
 msgid "Always Show Stock Status Types"
@@ -1197,6 +1208,7 @@ msgid ""
 "If not managing stock at a product level, by default nothing shows. Add "
 "default 'In Stock' text if you want to show the product is in stock."
 msgstr ""
+"もし商品レベルで在庫管理をしていない場合、何も表示しません。もし、商品の在庫ありを表示したい場合、デフォルトで「在庫あり」テキストを追加します"
 
 #: includes/customizer/customizer-options.php:1074
 msgid "In Stock"
@@ -1228,7 +1240,7 @@ msgstr "タブタイトル"
 #: includes/customizer/customizer-options.php:1102 
 #: includes/customizer/customizer-options.php:1109
 msgid "Description"
-msgstr ""
+msgstr "説明"
 
 #: includes/customizer/customizer-options.php:1106 
 #: includes/customizer/customizer-options.php:1134
@@ -1417,7 +1429,7 @@ msgstr "ドロップダウンページ例"
 #: includes/customizer/customizer-options.php:1658 
 #: includes/customizer/customizer-options.php:1690
 msgid "Select the page you'd like to display in this new tab."
-msgstr ""
+msgstr "この新しいタブに表示したいページを選択してください"
 
 #: includes/customizer/customizer-options.php:1632
 msgid "Add a new Account Tab to the Bottom"
@@ -1453,7 +1465,7 @@ msgid ""
 "Users will not need to click 'Update Cart' anymore, this will remove the "
 "update button and will auto update the cart as users change the product "
 "amounts."
-msgstr ""
+msgstr "顧客は、「カートの更新」をクリックする必要がなくなります。この設定は、更新ボタンを削除し、顧客が商品数を変更するたびに、自動で更新します。"
 
 #: includes/customizer/customizer-options.php:1732
 msgid "Remove Product Links "
@@ -1509,11 +1521,11 @@ msgstr "ページテキスト"
 
 #: includes/customizer/customizer-options.php:1835
 msgid "This will only show on the Empty Cart Page"
-msgstr ""
+msgstr "これは空のカートページでのみ表示されます"
 
 #: includes/customizer/customizer-options.php:1836
 msgid "Some Extra Text"
-msgstr ""
+msgstr "何らかのテキストを追加"
 
 #: includes/customizer/customizer-options.php:1841
 msgid "Edit 'Return to Shop' button"
@@ -1525,7 +1537,7 @@ msgstr "ショップに戻る"
 
 #: includes/customizer/customizer-options.php:1855
 msgid "Select the page this button links to"
-msgstr ""
+msgstr "このボタンのリンク先ページを選択してください"
 
 #: includes/customizer/customizer-options.php:1866
 msgid ""
@@ -1533,6 +1545,7 @@ msgid ""
 "customization for these elements. If these don't work, please get in contact "
 "for help."
 msgstr ""
+"これらのボタンはテーマによってデザインされるべきです。これらの要素に対してカスタマイズする機能を提供します。もし、機能しない場合、お知らせください。"
 
 #: includes/customizer/customizer-options.php:1871
 msgid "Customize \"Return To Shop\" button"
@@ -1540,7 +1553,7 @@ msgstr "「ショップに戻る」ボタンをカスタマイズ"
 
 #: includes/customizer/customizer-options.php:1874
 msgid "Your cart needs to be empty to view this button"
-msgstr ""
+msgstr "このボタンを確認するには、カートを「空」にする必要があります"
 
 #: includes/customizer/customizer-options.php:1900 
 #: includes/customizer/customizer-options.php:3274
@@ -1549,7 +1562,7 @@ msgstr "背景色"
 
 #: includes/customizer/customizer-options.php:1922
 msgid "Customize \"Proceed To Checkout\" button"
-msgstr "「注文を確定」ボタンをカスタマイズ"
+msgstr "注文ボタンをカスタマイズ"
 
 #: includes/customizer/customizer-options.php:1968
 msgid "Checkout Page"
@@ -1581,7 +1594,7 @@ msgstr "クーポンテキスト"
 
 #: includes/customizer/customizer-options.php:1998
 msgid "If you have a coupon code, please apply it below."
-msgstr ""
+msgstr "もしクーポンコードをお持ちなら、以下で適用してください"
 
 #: includes/customizer/customizer-options.php:2003
 msgid "Edit Order Notes Text"
@@ -1601,7 +1614,7 @@ msgstr "プレイスフォルダーテキスト"
 
 #: includes/customizer/customizer-options.php:2020
 msgid "Notes about your order, e.g. special notes for delivery."
-msgstr ""
+msgstr "ご注文について、メモが残せます。例) 配送に関する特定の情報など"
 
 #: includes/customizer/customizer-options.php:2025
 msgid "Add Custom Image"
@@ -1617,7 +1630,7 @@ msgstr "イメージのアップロード"
 
 #: includes/customizer/customizer-options.php:2036
 msgid "Upload this image at the correct size."
-msgstr ""
+msgstr "正しいサイズの画像をアップロードしてください"
 
 #: includes/customizer/customizer-options.php:2041
 msgid "Center Image"
@@ -1633,7 +1646,7 @@ msgstr "カスタムテキスト"
 
 #: includes/customizer/customizer-options.php:2059
 msgid "This will only show up once you refresh and/or go to the Checkout page."
-msgstr ""
+msgstr "これはページを再読み込みするか、注文ページに行くと一度だけ表示されます"
 
 #: includes/customizer/customizer-options.php:2060
 msgid ""
@@ -1641,6 +1654,7 @@ msgid ""
 "experience throughout this website. Please have a look at our Privacy Policy "
 "for more information on how we use your personal data"
 msgstr ""
+"あなたの個人情報は、このサイト体験の向上に役立てるためや、アカウント作成に利用されます。詳しくは、弊社の個人情報の取り扱いについてや、プライバシーポリシーをご覧ください。"
 
 #: includes/customizer/customizer-options.php:2065
 msgid "Remove Checkout Fields"
@@ -1689,7 +1703,7 @@ msgid ""
 "This button should be designed by the theme. We try offer extra "
 "customization for this button. If this doesn't work, please get in contact "
 "for help."
-msgstr ""
+msgstr "このボタンは、テーマによってデザインされるべきです。このボタンの追加のカスタマイズを提供を試みます。もし機能なければ、ご連絡ください"
 
 #: includes/customizer/customizer-options.php:2131
 msgid "Customize the \"Place Order\" button"
@@ -1705,13 +1719,14 @@ msgstr "カタログモード for:"
 
 #: includes/customizer/customizer-options.php:2204
 msgid "Apply all to ONLY Logged Out users"
-msgstr ""
+msgstr "全てのログアウトしているユーザーに適用"
 
 #: includes/customizer/customizer-options.php:2207
 msgid ""
 "All Changes for Catalogue Mode are now only happening for users NOT LOGGED "
 "IN.<br /><br />Please logout to see the changes."
 msgstr ""
+"カタログモードのための全ての変更は、ユーザーがログインしていない時にだけ発動します。<br /><br />ログアウトして、変更をご覧ください。"
 
 #: includes/customizer/customizer-options.php:2213
 msgid "Edit All Products"
@@ -1803,7 +1818,7 @@ msgstr "お知らせのテキスト"
 
 #: includes/customizer/customizer-options.php:2385
 msgid "Our store is temporarily closed for maintenance... Come back soon!"
-msgstr ""
+msgstr "メンテナンスのため、一時的にストアを閉鎖しています ... すぐに戻ってきます!"
 
 #: includes/customizer/customizer-options.php:2393
 msgid "Notice Style"
@@ -1831,7 +1846,7 @@ msgstr "カートに商品が入っている時だけ表示"
 
 #: includes/customizer/customizer-options.php:2462
 msgid "Please open the site is a new tab to see this work"
-msgstr ""
+msgstr "これが機能しているかを見るために、新しいたぶでサイトを開いてください"
 
 #: includes/customizer/customizer-options.php:2467
 msgid "Add Menu Cart - Mini Cart"
@@ -1857,7 +1872,7 @@ msgstr "メニューカート表示"
 
 #: includes/customizer/customizer-options.php:2522
 msgid "Align Menu Cart - Right"
-msgstr ""
+msgstr "メニューカートの位置 - 右"
 
 #: includes/customizer/customizer-options.php:2531
 msgid "Menu Cart Design"
@@ -1869,7 +1884,7 @@ msgstr "メニューカートデザインを編集"
 
 #: includes/customizer/customizer-options.php:2545
 msgid "Cart 'Has Items' Icon Color"
-msgstr ""
+msgstr "カートに「商品あり」アイコンの色"
 
 #: includes/customizer/customizer-options.php:2553
 msgid "Cart Icon Size"
@@ -1877,15 +1892,15 @@ msgstr "カートアイコンのサイズ"
 
 #: includes/customizer/customizer-options.php:2567
 msgid "Cart Widget Background Color"
-msgstr ""
+msgstr "カートウィジェット背景色"
 
 #: includes/customizer/customizer-options.php:2574
 msgid "Cart Widget Button Color"
-msgstr ""
+msgstr "カートウィジェットボタン色"
 
 #: includes/customizer/customizer-options.php:2581
 msgid "Cart Widget Button:hover Color"
-msgstr ""
+msgstr "カートウィジェットボタン(ホバー)色"
 
 #: includes/customizer/customizer-options.php:2596
 msgid "WC Product Quick View"
@@ -1897,15 +1912,15 @@ msgstr "ボタンのタイプ"
 
 #: includes/customizer/customizer-options.php:2623
 msgid "Quick View Button Text"
-msgstr ""
+msgstr "クイックビューボタンテキスト"
 
 #: includes/customizer/customizer-options.php:2626
 msgid "Quick View"
-msgstr ""
+msgstr "クイックビュー"
 
 #: includes/customizer/customizer-options.php:2632
 msgid "Apply Catalogue Mode settings to popup"
-msgstr ""
+msgstr "カタログモード設定をポップアップに適用"
 
 #: includes/customizer/customizer-options.php:2649
 msgid "Popup Animation"
@@ -1963,7 +1978,7 @@ msgstr "商品ページを表示"
 
 #: includes/customizer/customizer-options.php:2753
 msgid "Quick View Popup Design"
-msgstr ""
+msgstr "クイックビューポップアップデザイン"
 
 #: includes/customizer/customizer-options.php:2760
 msgid "Button Top Spacing"
@@ -1995,7 +2010,7 @@ msgstr "背景オーバーレイ透過率"
 
 #: includes/customizer/customizer-options.php:2836
 msgid "Popup Background Color"
-msgstr ""
+msgstr "ポップアップの背景色"
 
 #: includes/customizer/customizer-options.php:2843
 msgid "Remove Popup Border"
@@ -2007,7 +2022,7 @@ msgstr "WC非同期検索"
 
 #: includes/customizer/customizer-options.php:2865
 msgid "Add Ajax Search to Shop Page"
-msgstr ""
+msgstr "非同期検索をショップページに追加"
 
 #: includes/customizer/customizer-options.php:2878
 msgid "Search Through:"
@@ -2058,7 +2073,7 @@ msgstr "カテゴリを削除"
 
 #: includes/customizer/customizer-options.php:2961
 msgid "Ajax Search Design"
-msgstr ""
+msgstr "非同期検索デザイン"
 
 #: includes/customizer/customizer-options.php:2967
 msgid "Edit Ajax Search Design"
@@ -2094,7 +2109,7 @@ msgstr "検索ボックス下部スペース"
 
 #: includes/customizer/customizer-options.php:3085
 msgid "WC Handheld Footer Bar"
-msgstr ""
+msgstr "WCモバイル用フッターバー"
 
 #: includes/customizer/customizer-options.php:3091
 msgid "Mobile"
@@ -2110,7 +2125,7 @@ msgstr "常に有効"
 
 #: includes/customizer/customizer-options.php:3097
 msgid "When to show the Handheld Footer Bar"
-msgstr ""
+msgstr "モバイル用フッターバーが表示された時"
 
 #: includes/customizer/customizer-options.php:3101
 msgid "Hint: Change this to \"Always On\" for easy editing"
@@ -2159,7 +2174,7 @@ msgstr "管理リンク"
 #: includes/customizer/customizer-options.php:3167 
 #: includes/customizer/customizer-options.php:3198
 msgid "Page to link to"
-msgstr ""
+msgstr "リンクするページ"
 
 #: includes/customizer/customizer-options.php:3170 
 #: includes/customizer/customizer-options.php:3201
@@ -2180,15 +2195,15 @@ msgstr "検索のプレイスフォルダーテキスト"
 
 #: includes/customizer/customizer-options.php:3239
 msgid "Handheld Footer Design"
-msgstr ""
+msgstr "モバイル用フッターデザイン"
 
 #: includes/customizer/customizer-options.php:3245
 msgid "Edit Handheld Bar Design"
-msgstr ""
+msgstr "モバイル用フッターデザインの編集"
 
 #: includes/customizer/customizer-options.php:3267
 msgid "Titles Text Uppercase"
-msgstr ""
+msgstr "タイトルテキスト大文字化"
 
 #: includes/customizer/customizer-options.php:3288
 msgid "Font Selected Color"
@@ -2216,7 +2231,7 @@ msgstr[0] ""
 
 #: includes/inc/premium/wcz-thank-you-pages.php:79
 msgid "Page"
-msgstr ""
+msgstr "ページ"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:82
 msgid ""
@@ -2226,7 +2241,7 @@ msgstr ""
 
 #: includes/inc/premium/wcz-thank-you-pages.php:89
 msgid "Priority"
-msgstr ""
+msgstr "優先"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:91
 msgid "The higher the number, highter the priority."
@@ -2245,7 +2260,7 @@ msgstr ""
 
 #: includes/inc/premium/wcz-thank-you-pages.php:316
 msgid "Pay"
-msgstr ""
+msgstr "支払い"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:318
 msgid "My account"
@@ -2253,7 +2268,7 @@ msgstr "マイアカウント"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:324
 msgid "Thank you. Your order has been received."
-msgstr ""
+msgstr "ありがとう。注文を受け付けました。"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:329
 msgid "Order number:"
@@ -2269,11 +2284,11 @@ msgstr "メールアドレス:"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:346
 msgid "Total:"
-msgstr ""
+msgstr "合計:"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:352
 msgid "Payment method:"
-msgstr ""
+msgstr "支払い方法: "
 
 #: includes/inc/premium/wcz-thank-you-pages.php:384
 msgid "Bank"
@@ -2285,7 +2300,7 @@ msgstr "アカウント番号"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:392
 msgid "Branch Code"
-msgstr ""
+msgstr "ブランチコード"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:396
 msgid "IBAN"
@@ -2324,7 +2339,7 @@ msgstr "商品"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:490
 msgid "Total"
-msgstr ""
+msgstr "合計"
 
 #: includes/inc/premium/wcz-thank-you-pages.php:531
 msgid "Note:"
@@ -2344,11 +2359,11 @@ msgstr "商品"
 
 #: includes/inc/woocommerce.php:613
 msgid "Total Sales"
-msgstr ""
+msgstr "販売合計"
 
 #: includes/inc/woocommerce.php:637
 msgid "Recent Sales"
-msgstr ""
+msgstr "最近の販売"
 
 #: includes/inc/woocommerce.php:652
 msgid "View Order"
@@ -2360,19 +2375,19 @@ msgstr "商品を編集"
 
 #: includes/inc/woocommerce.php:711
 msgid "Price Prefix"
-msgstr ""
+msgstr "価格の接頭語"
 
 #: includes/inc/woocommerce.php:714
 msgid "Override the default price prefix set in the Customizer"
-msgstr ""
+msgstr "カスタマイザー内で、デフォルトの価格の接頭語を上書きします"
 
 #: includes/inc/woocommerce.php:724
 msgid "Price Suffix"
-msgstr ""
+msgstr "価格の接尾語"
 
 #: includes/inc/woocommerce.php:727
 msgid "Override the default price suffix set in the Customizer"
-msgstr ""
+msgstr "カスタマイザー内で、デフォルトの価格の接尾語を上書きします"
 
 #: includes/inc/woocommerce.php:953
 msgid "Please Upload an Image"
@@ -2405,15 +2420,15 @@ msgstr "アカウントタブ4"
 
 #: includes/lib/class-wcz-admin-api.php:169
 msgid "Upload an image"
-msgstr ""
+msgstr "画像をアップロード"
 
 #: includes/lib/class-wcz-admin-api.php:169
 msgid "Use image"
-msgstr ""
+msgstr "画像を使う"
 
 #: includes/lib/class-wcz-admin-api.php:169
 msgid "Upload new image"
-msgstr ""
+msgstr "新規画像をアップロード"
 
 #: includes/lib/class-wcz-admin-api.php:170
 msgid "Remove image"
@@ -2481,11 +2496,11 @@ msgstr ""
 
 #: includes/lib/class-wcz-post-type.php:157
 msgid "Custom field updated."
-msgstr ""
+msgstr "カスタムフィールドがアップデートされました"
 
 #: includes/lib/class-wcz-post-type.php:158
 msgid "Custom field deleted."
-msgstr ""
+msgstr "カスタムフィールドが削除されました"
 
 #: includes/lib/class-wcz-post-type.php:159
 #, php-format
