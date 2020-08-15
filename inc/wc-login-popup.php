@@ -126,7 +126,7 @@ if ( ! function_exists( 'bpb_get_wc_login_form' ) ) {
 			{$register_form}
 		</div>
 	</div>
-	EOD;
+EOD;
 
 		return $html;
 	}
