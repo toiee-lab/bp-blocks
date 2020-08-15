@@ -23,7 +23,13 @@ div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h2,
 div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h3,
 div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h4,
 div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h5,
-div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h6{
+div[data-type="bp-blocks/bp-subheader"]+div[data-type="core/heading"]>h6,
+div[data-type="bp-blocks/bp-subheader"]+h1,
+div[data-type="bp-blocks/bp-subheader"]+h2,
+div[data-type="bp-blocks/bp-subheader"]+h3,
+div[data-type="bp-blocks/bp-subheader"]+h4,
+div[data-type="bp-blocks/bp-subheader"]+h5,
+div[data-type="bp-blocks/bp-subheader"]+h6{
 	margin-top:0;
 }
 
