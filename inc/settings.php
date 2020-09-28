@@ -60,6 +60,13 @@ class BpBlocks {
 							delete_option( 'bp_block_use_woocommerce' );
 						}
 						break;
+					case 'dismiss':
+						if ( (bool) $v ) {
+							update_user_meta( get_current_user_id(), 'tgmpa_dismissed_notice_bpcast', 1 );
+						} else {
+							delete_user_meta( get_current_user_id(), 'tgmpa_dismissed_notice_bpcast' );
+						}
+						break;
 					default:
 						foreach ( $trans_lang as $pslug => $v ) {
 							$lang_slug = $v['lang_slug'];
@@ -169,6 +176,26 @@ class BpBlocks {
 					</td>
 				</tr>
 				<?php endforeach; ?>
+				<tr>
+				<th scope="row">
+						<label for="my-text-field">システム通知の停止</label>
+					</th>
+					<td>
+						<?php
+						if ( get_user_meta( get_current_user_id(), 'tgmpa_dismissed_notice_bpcast', true ) ) {
+							$true_checked = 'checked';
+							$false_checked = '';
+						} else {
+							$true_checked = '';
+							$false_checked = 'checked';
+						}
+						?>
+						<label><input type="radio" name="bpb[dismiss]" value="1" <?php echo $true_checked; ?> /> 停止します</label><br>
+						<label><input type="radio" name="bpb[dismiss]" value="0" <?php echo $false_checked; ?> /> 有効にします</label><br>
+						<br>
+						<span class="description">プラグインアップデートの通知が出るようにするには、「通知を有効」にしてください</span>
+					</td>
+				</tr>
 				</tbody>
 			</table>
 			<?php wp_nonce_field( 'bp-blocks' ); ?>
