@@ -142,6 +142,11 @@ function bpblocks_register_required_plugins() {
 				'required' => true,
 			),
 			array(
+				'name'     => 'WooCommerce Stripe Payment Gateway',
+				'slug'     => 'woocommerce-gateway-stripe',
+				'required' => false,
+			),
+			array(
 				'name'     => 'WooCustomizer',
 				'slug'     => 'woocustomizer',
 				'required' => false,

@@ -7,7 +7,7 @@
  * Author URI:      https://toiee.jp
  * Text Domain:     bp-blocks
  * Domain Path:     /languages
- * Version:         1.1
+ * Version:         1.2
  *
  * @package         Bp_Blocks
  */
