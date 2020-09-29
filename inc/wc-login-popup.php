@@ -19,7 +19,7 @@ add_action(
 			return;
 		}
 		?>
-<div class="light-modal" id="bp-login-from" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+<div class="light-modal" id="bp-login-form" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
 	<div class="light-modal-content animate__animated animate__fadeInDown">
 		<!-- light modal header -->
 		<div class="light-modal-header">
@@ -143,7 +143,7 @@ add_action(
 		$redirect_url = ( is_ssl() ? 'https' : 'http' ) . '://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
 
 		?>
-<div class="light-modal" id="bp-logout-from" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
+<div class="light-modal" id="bp-logout-form" role="dialog" aria-labelledby="light-modal-label" aria-hidden="false">
 	<div class="light-modal-content animate__animated animate__fadeInDown">
 		<!-- light modal header -->
 		<div class="light-modal-header">
